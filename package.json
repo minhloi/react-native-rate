@@ -1,8 +1,9 @@
 {
   "name": "@minhloi/react-native-rate",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "React Native Rate is a cross platform solution to getting users to easily rate your app.",
-  "main": "index",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "npm --no-git-tag-version version patch && git add . && git commit -am \"Next Version\" && git push && npm publish",
